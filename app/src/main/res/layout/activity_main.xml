@@ -18,29 +18,40 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pilih Menu:"
+
+        android:text="@string/pilih_menu"
         android:textAlignment="center" />
 
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center">
 
         <RadioGroup
+            android:id="@+id/radioSelect"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
 
             <RadioButton
-                android:layout_width="wrap_content"
+                android:id="@+id/dinein"
+                android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:text="Dine In"/>
+                android:gravity="center"
+                android:text="@string/dine_in" />
 
             <RadioButton
+                android:id="@+id/takeaway"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Take Away" />
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="@string/take_away" />
 
         </RadioGroup>
-    </android.support.constraint.ConstraintLayout>
 
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="selectOrder"
+        android:layout_gravity="center"
+        android:text="@string/btnOrder" />
 </LinearLayout>

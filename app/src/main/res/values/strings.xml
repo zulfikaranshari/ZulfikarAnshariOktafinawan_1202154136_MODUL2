@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Zulfikar Anshari Oktafinawan_1202154136_MODUL2</string>
     <string name="splashText">Selamat Datang!</string>
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="btnOrder">Pesan Sekarang!</string>
+
+    <string-array name="mejaArray">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+        <item>Meja 9</item>
+        <item>Meja 10</item>
+    </string-array>
 </resources>

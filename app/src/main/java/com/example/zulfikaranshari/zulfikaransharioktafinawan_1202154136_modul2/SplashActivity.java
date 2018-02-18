@@ -15,7 +15,7 @@ public class SplashActivity extends Activity {
         super.onCreate(icicle);
         setContentView(R.layout.splash);
 
-
+        //handle untuk memulai MainActivity
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
